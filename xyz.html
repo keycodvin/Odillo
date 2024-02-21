@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+*{
+	padding: 0;
+	margin: 0;
+	
+ 	list-style:none ;
+ 	box-sizing: border-box;
+
+}
+li a:hover{
+	background-color: green ;
+}
+body
+{
+	font-family: montserrat;
+
+}
+
+
+.dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: whitesmoke;
+            min-width: 200px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: lightgrey;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropbutton {
+            background-color: gray;
+            color: white;
+            padding: 10px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+nav{
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
+}
+label.logo{
+	color: white;
+	font-size:35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+ nav ul{
+ 	float: right;
+ 	margin-right: 20px;
+
+ }
+
+ nav ul li {
+ 	display: inline-block;
+ 	line-height: 80px;
+ 	margin: 0 5px;
+ }
+
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+
+}
+a.active,a:hover{
+	background: #1b9ff;
+
+}
+
+
+
+    body {
+      font-family:times new roman, roboto;
+     background-image: url(oo.jpg);
+      margin:10pxs;
+      padding:10px;
+      display: grid;
+      justify-content:center;
+      align-items: center;
+      height: 100px;
+      
+    }
+
+    form {
+      background-color:darkgrey;
+      padding: 60px;
+      border-radius: 20px;
+      width: 500px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      text-align: left;
+      color:darkgreen;
+    }
+
+    
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius:6px;
+    }
+
+    button {
+      background-color: #f2f2f2;
+      color: #thistle;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color:green;
+    }
+
+    input[type="submit"] 
+    {background-color: skyblue;
+    }
+
+    td{
+    	color: black;
+    }
+
+    body{
+    	background-color: seagreen;
+    }
+
+
+
+
+
+
+
+
+
+	</style>
+	
+</head>
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+
+
+<body>
+	<nav>
+		<label class="logo">Kepler College</label>
+ <ul>
+  <li><a class="active"href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+                <li class="p dropdown">
+                <a href="#">About</a>
+                <div class="dropdown-content">
+                    <a href="Mission.html">Mission, Vision, and values</a>
+                    <a href="ourteam.html">Our team</a>
+                </div>
+            </li>
+
+  <li><a href="#Register">Register</a></li>
+  <li><a href="#Career">Career</a></li>
+  <li><a href="#Portfolio">Portfolio</a></li>
+  
+	</ul>
+
+
+
+
+
+
+			
+    <form>
+<h1> Kepler Career Registration form</h1>
+		<table>
+				<tr>
+				     <td>
+					    Name: 
+					 </td>
+					 <td>
+					    <input type="text" placeholder="ex:Odilo Copernic" name="">
+					 </td>
+				</tr>
+
+				<tr>
+					<td>
+					    Last Name: 
+					 </td>
+					 <td>
+					    <input type="text" placeholder="Hirwa" name="">
+					 </td>
+				</tr>	
+
+
+				<tr>	 
+					 <td>
+					 Email:
+					 </td>
+					 <td>
+					    <input type="mail" placeholder="ex: odilo@gmail.com" name="">
+					 </td>
+				</tr>
+
+				<tr>
+					  <td>
+					   Phone no:
+					  </td>
+					  <td>
+					        <select>
+						            <option>+250</option>
+									<option>+44</option>
+									<option>+268</option>
+									<option>+987</option>
+						    </select>
+							<input type="Phone" placeholder="73..." name="">
+					  </td>
+
+				</tr>
+
+				<tr>
+					<td>
+						Reg No:
+					</td>
+					<td>
+						<input type="text" placeholder="" name="">
+					</td>
+				</tr>
+
+
+				<tr>
+					 <td>
+					       Gender:
+					 </td>
+					 <td>
+							<select>
+						            <option>Male</option>
+									<option>Female</option>
+									
+						    </select>
+
+
+					 </td> 
+
+
+				</tr>
+
+
+				<tr>
+					<td>
+						Event name:
+					</td>
+										<td>
+						<input type="text" placeholder="" name="">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Reason/Description:
+					</td>
+
+					<td>
+										
+						<textarea rows="3"> </textarea>
+					</td>
+				</tr>
+
+
+				
+				<tr>
+				    <td>
+				     <input type="Submit" value="Send" name="">
+					</td> 
+				</tr>
+		</table>
+	</form>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+</body>
+</html>
